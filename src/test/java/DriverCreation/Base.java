@@ -24,7 +24,7 @@ public class Base {
 
         URL url = new URL("http://127.0.0.1:4723/");
         driver = new AndroidDriver(url, capabilities);
-         DialerPage dialerPage = new DialerPage(driver);
+        DialerPage dialerPage = new DialerPage(driver);
 
 
     }
